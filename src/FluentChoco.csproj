@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>8.0</LangVersion>
+		<Product>FluentChoco</Product>
+		<PackageId>FluentChoco</PackageId>
+		<Authors>dalibor-rankovic</Authors>
+		<Copyright>Copyright © 2020 Dalibor Rankovic</Copyright>
+		<Description>FluentValidation middleware for HotChocolate GraphQL</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<PackageTags>graphql hotchocolate fluent validation</PackageTags>
+		<PackageReleaseNotes>Changed package name with new namespace to avoid collisions with official HC packages</PackageReleaseNotes>
+		<PackageIconUrl />
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/dalrankov/FluentChoco</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/dalrankov/FluentChoco</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<Version>2.0.0</Version>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+		<DocumentationFile>bin\Release\FluentChoco.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="9.3.0" />
+		<PackageReference Include="HotChocolate.Execution" Version="11.0.7" />
+	</ItemGroup>
+
+</Project>
