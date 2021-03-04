@@ -18,7 +18,7 @@
 		<RepositoryUrl>https://github.com/dalrankov/FluentChoco</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/dalrankov/FluentChoco</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<Version>2.0.0</Version>
+		<Version>2.0.1</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -34,7 +34,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="9.3.0" />
-		<PackageReference Include="HotChocolate.Execution" Version="11.0.7" />
+		<PackageReference Include="HotChocolate.Execution" Version="11.0.9" />
 	</ItemGroup>
 
 </Project>
