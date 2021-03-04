@@ -12,7 +12,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageTags>graphql hotchocolate fluent validation</PackageTags>
-		<PackageReleaseNotes>Changed package name with new namespace to avoid collisions with official HC packages</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated HC version to 11.0.9</PackageReleaseNotes>
 		<PackageIconUrl />
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/dalrankov/FluentChoco</RepositoryUrl>
