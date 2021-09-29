@@ -32,7 +32,7 @@ namespace FluentChoco
                 var serviceProvider = context.Service<IServiceProvider>();
                 var errors = new List<(IInputField Argument, IList<ValidationFailure> Failures)>();
 
-                foreach (IInputField argument in context.Field.Arguments)
+                foreach (IInputField argument in context.Selection.Field.Arguments)
                 {
                     var validationOptions = new ArgumentValidationOptions<object>(
                         argument, context.ArgumentValue<object>(argument.Name));

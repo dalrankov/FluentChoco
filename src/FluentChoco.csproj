@@ -12,13 +12,13 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageTags>graphql hotchocolate fluent validation</PackageTags>
-		<PackageReleaseNotes>Updated HC version to 11.0.9</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated HC to v12.0.0 and FV to v10.3.3</PackageReleaseNotes>
 		<PackageIconUrl />
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/dalrankov/FluentChoco</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/dalrankov/FluentChoco</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<Version>2.0.1</Version>
+		<Version>3.0.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -33,8 +33,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="FluentValidation" Version="9.3.0" />
-		<PackageReference Include="HotChocolate.Execution" Version="11.0.9" />
+		<PackageReference Include="FluentValidation" Version="10.3.3" />
+		<PackageReference Include="HotChocolate.Execution" Version="12.0.0" />
 	</ItemGroup>
 
 </Project>
