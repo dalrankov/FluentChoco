@@ -6,19 +6,19 @@
 		<Product>FluentChoco</Product>
 		<PackageId>FluentChoco</PackageId>
 		<Authors>dalibor-rankovic</Authors>
-		<Copyright>Copyright © 2020 Dalibor Rankovic</Copyright>
+		<Copyright>Copyright © 2022 Dalibor Rankovic</Copyright>
 		<Description>FluentValidation middleware for HotChocolate GraphQL</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageTags>graphql hotchocolate fluent validation</PackageTags>
-		<PackageReleaseNotes>Updated HC to v12.0.0 and FV to v10.3.3</PackageReleaseNotes>
+		<PackageReleaseNotes>Updated HC to v12.6.0</PackageReleaseNotes>
 		<PackageIconUrl />
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryUrl>https://github.com/dalrankov/FluentChoco</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/dalrankov/FluentChoco</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<Version>3.0.0</Version>
+		<Version>4.0.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -34,7 +34,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="FluentValidation" Version="10.3.3" />
-		<PackageReference Include="HotChocolate.Execution" Version="12.0.0" />
+		<PackageReference Include="HotChocolate.Execution" Version="12.6.0" />
 	</ItemGroup>
 
 </Project>
